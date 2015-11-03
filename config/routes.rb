@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
  
+  resources :images
   root 'welcome#index'
-  
+
   resources :categories
 
   # sign up stuff
@@ -12,6 +13,7 @@ Rails.application.routes.draw do
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
+  get '/account' => 'users#show'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

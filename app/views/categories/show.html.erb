@@ -3,7 +3,14 @@
 <p>
   <strong>Name:</strong>
   <%= @category.name %>
+
 </p>
+
+
+	<% @category.images.each do |image| %>
+		 <%= image.svg.html_safe %>
+	<% end %>
+
 
 <%= link_to 'Edit', edit_category_path(@category) %> |
 <%= link_to 'Back', categories_path %>

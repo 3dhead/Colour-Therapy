@@ -5,18 +5,39 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="<%= @page_class %>">
 
+<div id="nav-bar">
+<nav>
+	<ul>
+<!-- 		<li><%= link_to image_tag("temp-logo.png", alt: "Temp Logo", height: "50px", width: "50px"), root_path%></li> -->
+		<li class="logo"><%= link_to "CT", root_path%></li>
 
-<% if current_user %>
-	You are logged in as <%= current_user.name %>
-	<%= link_to "log out", logout_path %>
-<% else %>
-	<%= link_to "log in", login_path %>
-<% end %>
+		<li><%= link_to "Categories", categories_path %> </li>
 
+		<li><%= link_to "Gallery", root_path %></li>
+
+		<li><% if current_user %>
+				<%= link_to current_user.name, account_path %>
+			<% else %>
+				<%= link_to "Log In", login_path %>
+			<% end %>
+		</li>
+
+	</ul>
+</nav>
+</div>
+
+<div id="wrapper">
 <%= yield %>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="farbtastic.js"></script>
+<link rel="stylesheet" href="farbtastic.css" type="text/css" />
 
 </body>
 </html>
+
+</div>

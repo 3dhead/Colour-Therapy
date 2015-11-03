@@ -14,3 +14,26 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+require 'farbtastic'
+
+$(document).ready(function(){
+	
+	var currentColor;
+
+	$('#colorpicker').farbtastic(function(color){
+		currentColor = color;
+	});
+
+	$('#image').load(function(){
+		// unused for now
+	});
+	// 'https://openclipart.org/download/231386/Artist.svg', 
+	//https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/cheshire.svg
+
+	$('#image').on('click', 'path', function(event){ // any path inside the image div will call this function when clicked
+		$(event.target).attr({ fill: currentColor });
+		var data = $('#image').html()
+		$('#svg-data').val(data)
+	});
+});

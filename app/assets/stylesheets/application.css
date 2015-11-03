@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+ = require_farbtastic
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+#nav-bar {
+	background-color: #1C1919;
+	height: 60px;
+}
+
+ nav li {
+ 	display: inline;
+ 	padding: 15px;
+ 	font-size: 120%;
+ }
+
+ #wrapper {
+ 	width: 1000px;
+ 	margin: auto;
+ }
+
+ .category-placeholder {
+ 	height: 250px;
+ 	width: 250px;
+ 	border: 1px dashed black;
+ }
+
+ table {
+ 	float: right;
+ 	margin: 10px 60px 10px 0px;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-size: 220%;
+ 	font-family: 'Pacifico', cursive;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+ 		

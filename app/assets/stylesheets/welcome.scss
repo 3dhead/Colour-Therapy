@@ -1,0 +1,74 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+$title-font: 'Pacifico', cursive;
+$title-color: #FFF;
+$nav-color: #FFF;
+$hover-color: #EB5937;
+
+.logo {
+	font-family: $title-font;
+	font-size: 50px;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.logo a {
+	color: $hover-color;
+}
+
+#nav-bar {
+	background-color: #456F74;
+	height: 60px;
+}
+
+nav {
+ 	padding-top: 20px;
+
+	li {
+ 		display: inline;
+ 		padding: 15px;
+ 		font-family: helvetica;
+ 		color: $nav-color;
+	}
+
+	a {
+		text-decoration: none;
+		color: $nav-color;
+	}
+
+	a:hover {
+		color: $hover-color;
+	}
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#welcome {
+	font-family: $title-font;
+	font-size: 1000%;
+	text-align: center;
+	margin-top: 300px;
+	color: $title-color;
+	text-shadow: 4px 4px 6px #031319;
+}
+
+body.welcome {
+	background-image: url("bannerdark.png");
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
+
