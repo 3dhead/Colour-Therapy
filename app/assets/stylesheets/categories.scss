@@ -2,10 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
  
+
+
+ td svg {
+ 	max-height: 100%;
+ 	max-width: 100%;
+ 	overflow: hidden;
+ }
+
  .category-placeholder {
- 	height: 250px;
+ 	height: 180px;
  	width: 250px;
- 	border: 1px dashed black;
+ 	border: 1px solid #213638;
+ 	border-radius: 15px;
+
  }
 
  table {
@@ -13,7 +23,13 @@
  	margin: 10px 60px 10px 0px;
  }
 
- #wrapper {
- 	border: 1px solid red;
+ th {
+ 	font-family: 'Oxygen', helvetica, sans-serif;
+
+ 	a {
+ 		text-decoration: none;
+ 		font-size: 120%;
+ 		color: #213638;
+ 	}
  }
 

@@ -11,24 +11,24 @@
 
 $title-font: 'Pacifico', cursive;
 $title-color: #FFF;
-$nav-color: #FFF;
-$hover-color: #EB5937;
+$nav-color: #1C1919;
+$hover-color: #403D3C;
 
 .logo {
 	font-family: $title-font;
-	font-size: 50px;
+	font-size: 40px;
 	margin-right: 20px;
 	margin-left: 5px;
 }
 
 .logo a {
+	color: #D3CBBD;
+}
+
+.logo a:hover {
 	color: $hover-color;
 }
 
-#nav-bar {
-	background-color: #1C1919;
-	height: 60px;
-}
 
 nav {
  	padding-top: 20px;
@@ -36,13 +36,15 @@ nav {
 	li {
  		display: inline;
  		padding: 15px;
- 		font-family: helvetica;
+ 		font-family: 'Oxygen', helvetica, sans-serif;
  		color: $nav-color;
 	}
 
 	a {
 		text-decoration: none;
 		color: $nav-color;
+		font-size: 120%;
+
 	}
 
 	a:hover {
@@ -61,7 +63,7 @@ nav {
 	text-align: center;
 	margin-top: 300px;
 	color: $title-color;
-	text-shadow: 4px 4px 6px #031319;
+	text-shadow: 4px 4px 6px #1C1919;
 }
 
 body.welcome {
@@ -70,5 +72,10 @@ body.welcome {
 	background-repeat: repeat-x;
 
 	animation: animatedBackground 40s linear infinite;
+}
+
+#welcome a {
+	text-decoration: none;
+	color: $title-color;
 }
 

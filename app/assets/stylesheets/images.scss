@@ -3,11 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #colorpicker {
-	border: 1px solid green;
 	float: right;
+	margin-top: 150px;
 }
 
 #image {
-	border: 1px solid blue;
-	float: left;
+	display: inline-block;
+}
+
+svg {
+	width: 700px;
+	height: 500px;
+	border-radius: 15px;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #D3CBBD;
 }

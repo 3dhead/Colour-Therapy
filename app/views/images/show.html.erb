@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h2> doing a thing </h2>
+<h2>Start Colouring!</h2>
 
 <div id="image">
   <%= @image.svg.html_safe %>
@@ -10,6 +10,7 @@
 
 <div id="colorpicker"></div>
 
-
+<div class="back-button">
 <%= link_to 'Edit', edit_image_path(@image) %> |
-<%= link_to 'Back', images_path %>
+<%= link_to 'Back', @category_path %>
+</div> 
