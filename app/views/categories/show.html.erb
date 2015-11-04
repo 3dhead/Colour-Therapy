@@ -1,16 +1,37 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-
-</p>
+<h1><%= @category.name %></h1>
 
 
-	<% @category.images.each do |image| %>
-		 <%= image.svg.html_safe %>
-	<% end %>
+<% @category.images.each do |image| %>
+<table>
+  	<tbody>
+      <tr>
+        <td><div class="category-placeholder"></div></td>
+      </tr>
+  	</tbody>
+</table>
+
+<table>
+  	<tbody>
+      <tr>
+        <td><div class="category-placeholder"></div></td>
+      </tr>
+  	</tbody>
+</table>
+
+<table>
+  	<tbody>
+      <tr>
+        <td><div class="category-placeholder"></div></td>
+      </tr>
+  	</tbody>
+</table>
+
+<% end %>
 
 
+<!--
 <%= link_to 'Edit', edit_category_path(@category) %> |
 <%= link_to 'Back', categories_path %>
+-->

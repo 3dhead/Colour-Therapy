@@ -13,9 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
-
-require 'farbtastic'
+//= require farbtastic
 
 $(document).ready(function(){
 	
