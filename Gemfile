@@ -28,6 +28,8 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'farbtastic-rails'
 
+
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -54,4 +56,6 @@ group :development do
 	gem 'better_errors'
 end
 
+gem 'rails_12factor', group: :production
+ruby '2.2.3'
 

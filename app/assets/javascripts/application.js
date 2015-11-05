@@ -19,6 +19,8 @@ $(document).ready(function(){
 	
 	$('#image').load(function(){
 		// unused for now
+
+		
 	});
 
 
