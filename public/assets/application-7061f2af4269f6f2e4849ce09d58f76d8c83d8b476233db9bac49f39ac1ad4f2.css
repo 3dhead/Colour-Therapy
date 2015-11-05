@@ -1,0 +1,465 @@
+/* line 1, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic {
+  position: relative;
+}
+
+/* line 4, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic * {
+  position: absolute;
+  cursor: crosshair;
+}
+
+/* line 8, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic, .farbtastic .wheel {
+  width: 195px;
+  height: 195px;
+}
+
+/* line 12, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic .color, .farbtastic .overlay {
+  top: 47px;
+  left: 47px;
+  width: 101px;
+  height: 101px;
+}
+
+/* line 18, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic .wheel {
+  background: url(/assets/farbtastic/wheel-ea68f7b1631f749b24fbea8f99905a4581124156419a2091afbf79e5d69ef52b.png) no-repeat;
+  width: 195px;
+  height: 195px;
+}
+
+/* line 23, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic .overlay {
+  background: url(/assets/farbtastic/mask-8db9eda1f0597cfbb5bdec79507e3bac3df46fd899fdc5bbe8ea92e4120439f2.png) no-repeat;
+}
+
+/* line 26, /Users/Shennah/.rvm/gems/ruby-2.2.3/gems/farbtastic-rails-1.3.0/vendor/assets/stylesheets/farbtastic.css.scss */
+.farbtastic .marker {
+  width: 17px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  overflow: hidden;
+  background: url(/assets/farbtastic/marker-557f8185b01f5e5dd2ccaac950f07754507ed0edf125a9e922159491998d8fbc.png) no-repeat;
+}
+/* line 8, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+td svg {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* line 14, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+.category-placeholder {
+  height: 180px;
+  width: 250px;
+  border-radius: 15px;
+}
+/* line 19, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+.category-placeholder img {
+  border-radius: 15px;
+}
+
+/* line 23, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+table {
+  float: right;
+  margin: 10px 60px 10px 0px;
+}
+
+/* line 28, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+th {
+  font-family: "Oxygen", helvetica, sans-serif;
+  padding: 5px;
+}
+/* line 32, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+th a {
+  text-decoration: none;
+  font-size: 120%;
+  color: #213638;
+}
+
+/* line 39, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+.back {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  font-family: "Oxygen", helvetica, sans-serif;
+  font-size: 120%;
+}
+/* line 46, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+.back a {
+  color: #213638;
+  text-decoration: none;
+}
+/* line 51, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/categories.scss */
+.back a:hover {
+  color: #D3CBBD;
+}
+/* line 7, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#farbtastic {
+  float: right;
+  margin-top: 50px;
+}
+
+/* line 12, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#colorpicker {
+  margin-bottom: 10px;
+}
+
+/* line 16, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#result {
+  text-align: center;
+  padding: 5px;
+}
+
+/* line 22, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#image {
+  display: inline-block;
+}
+
+/* line 26, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+svg {
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+/* line 32, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 200%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #D3CBBD;
+}
+
+/* line 41, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+.back {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  font-family: "Oxygen", helvetica, sans-serif;
+  font-size: 120%;
+}
+/* line 48, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+.back a {
+  color: #213638;
+  text-decoration: none;
+}
+/* line 53, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+.back a:hover {
+  color: #D3CBBD;
+}
+
+/* line 59, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#svg-data {
+  display: none;
+}
+
+/* line 63, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#edit-button {
+  display: none;
+}
+
+/* line 67, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/images.scss */
+#save {
+  float: right;
+  margin-left: 5px;
+}
+/* line 1, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 27, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 31, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 37, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 45, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 56, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 2, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+#login {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 9, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+#login a {
+  text-decoration: none;
+  color: #D3CBBD;
+}
+/* line 14, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+#login a:hover {
+  color: #EB5937;
+}
+
+/* line 19, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+#email, #password {
+  border: solid #213638 3px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #508187;
+  border-radius: 25px;
+  text-align: center;
+  color: #213638;
+}
+
+/* line 31, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #508187 inset;
+  -webkit-text-fill-color: #213638;
+}
+
+/* line 36, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #213638;
+  border-radius: 25px;
+  text-align: center;
+  color: #213638;
+}
+
+/* line 45, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+input[type="submit"] {
+  background-color: #213638;
+  font-size: 120%;
+  color: #D3CBBD;
+}
+
+/* line 51, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/sessions.scss */
+input[type="submit"]:hover {
+  color: #EB5937;
+}
+/* line 4, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/users.scss */
+h3 {
+  font-family: "Oxygen", helvetica, sans-serif;
+  font-size: 120%;
+  color: #213638;
+  margin-bottom: 5px;
+}
+/* line 10, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/users.scss */
+h3 .user-info {
+  color: #D3CBBD;
+  margin-left: 10px;
+}
+
+/* line 17, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/users.scss */
+p {
+  margin-top: 20px;
+}
+/* line 20, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/users.scss */
+p a {
+  color: #EB5937;
+  text-decoration: none;
+  font-size: 120%;
+  background-color: #213638;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+}
+/* line 29, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/users.scss */
+p a:hover {
+  color: #D3CBBD;
+}
+/* line 2, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* line 17, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+/* line 24, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+.logo a {
+  color: #D3CBBD;
+}
+
+/* line 28, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+.logo a:hover {
+  color: #403D3C;
+}
+
+/* line 33, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+nav {
+  padding-top: 20px;
+}
+/* line 36, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+nav li {
+  display: inline;
+  padding: 15px;
+  font-family: 'Oxygen', helvetica, sans-serif;
+  color: #213638;
+}
+/* line 43, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+nav a {
+  text-decoration: none;
+  color: #213638;
+  font-size: 120%;
+}
+/* line 50, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+nav a:hover {
+  color: #403D3C;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+/* line 60, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+#welcome {
+  font-family: "Pacifico", cursive;
+  font-size: 1000%;
+  text-align: center;
+  margin-top: 300px;
+  color: #FFF;
+  text-shadow: 4px 4px 6px #1C1919;
+}
+
+/* line 69, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+body.welcome {
+  background-image: url("bannerdark.png");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 40s linear infinite;
+}
+
+/* line 77, /Users/Shennah/Desktop/wdi/week6/ColourTherapy/app/assets/stylesheets/welcome.scss */
+#welcome a {
+  text-decoration: none;
+  color: #FFF;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+
+ */
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #508187
+}
+
+#nav-bar {
+	background-color: #EB5937;
+	height: 60px;
+}
+
+ nav li {
+ 	display: inline;
+ 	padding: 15px;
+ 	font-size: 120%;
+ 	font-family: 'Oxygen', helvetica, sans-serif;
+ }
+
+ #wrapper {
+ 	width: 1000px;
+ 	margin: auto;
+ }
+
+
+ h1 {
+ 	text-align: center;
+ 	font-size: 220%;
+ 	font-family: 'Pacifico', cursive;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	color: #D3CBBD
+ }
+ 		
