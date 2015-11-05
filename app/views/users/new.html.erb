@@ -1,16 +1,19 @@
 <h1>Sign Up to Colour Therapy</h1>
 
+<div id="login">
 <%= form_for(:user, url: '/users') do |f| %>
 
-	Name: <%= f.text_field :name %>
+	<div id="name"><%= f.text_field :name, :placeholder => 'Name' %></div>
 	<br>
-	Email: <%= f.email_field :email %>
+	<div id="email"><%= f.email_field :email, :placeholder => 'Email'%></div>
 	<br>
-	Password: <%= f.password_field :password %>
+	<div id="password"><%= f.password_field :password, :placeholder => 'Password' %></div>
 	<br>
-	Password Confirmation: <%= f.password_field :password_confirmation %>
+	<div id="password_confirmation"><%= f.password_field :password_confirmation, :placeholder => 'Confirm Password' %></div>
 	<br>
 	<br>
-	<%= f.submit "Sign Up" %>
+	<div class="submit"><%= f.submit "Sign Up" %></div>
+	Already have an account? <%= link_to "Log In", login_path %> now
+</div>
 
 <% end %>
