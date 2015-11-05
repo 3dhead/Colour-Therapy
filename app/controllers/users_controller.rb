@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   
-
   def new #renders new template
      @user = User.new
   end    

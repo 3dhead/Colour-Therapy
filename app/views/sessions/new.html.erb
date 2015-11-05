@@ -1,16 +1,18 @@
-<h1>Log In to Colour Therapy</h1>
+<h1>Log In</h1>
 
 <%= form_tag '/login' do %>
 
-Email: <%= email_field_tag :email %>
-<br>
-Password: <%= password_field_tag :password %>
-<br>
-<br>
-<%= submit_tag "Log In" %>
+<div id="login">
 
-or 
+<%= email_field_tag :email, nil, :placeholder => 'Email' %>
+<br>
+<%= password_field_tag :password, nil, :placeholder => 'Password'%>
+<br>
+<br>
+<div class="submit"> <%= submit_tag "Log In" %></div>
+<br>
+Don't have an account? <%= link_to "Sign Up", signup_path %> now
 
-<%= link_to "Sign Up", signup_path %>
+</div>
 
 <% end %>

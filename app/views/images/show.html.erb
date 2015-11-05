@@ -7,14 +7,21 @@
 </div>
 
 
+<div id="farbtastic">
+	<div id="colorpicker"></div>
+<!-- <form><input type="text" id="color" name="color" value="#800813" /></form> -->
+	<div id='result'>
+		<span id='picked'></span>
+	</div>
+</div>
 
-<div id="colorpicker"></div>
+
 
 <div class="back"> 
-	<%= link_to 'Back', categories_path %> 
+	<%= link_to 'Back', categories_path %> || 
 	<div id="save"> <%= link_to 'Save', account_path %> </div>
 </div> 
 
-<%= link_to 'Edit', edit_image_path(@image) %>
+<div id="edit-button"><%= link_to 'Edit', edit_image_path(@image) %> </div>
 <textarea id="svg-data"></textarea>
 

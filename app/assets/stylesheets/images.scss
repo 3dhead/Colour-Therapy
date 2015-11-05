@@ -4,10 +4,20 @@
 
 $font: 'Oxygen', helvetica, sans-serif;
 
-#colorpicker {
+#farbtastic{
 	float: right;
-	margin-top: 150px;
+	margin-top: 50px;
 }
+
+#colorpicker {
+	margin-bottom: 10px;
+}
+
+#result {
+	text-align: center;
+	padding: 5px;
+}
+
 
 #image {
 	display: inline-block;
@@ -44,4 +54,17 @@ h2 {
  		color: #D3CBBD
  	}
  	
+ }
+
+ #svg-data {
+ 	display: none;
+ }
+
+ #edit-button {
+ 	display: none;
+ }
+
+ #save {
+ 	float: right;
+ 	margin-left: 5px;
  }

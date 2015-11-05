@@ -1,0 +1,30 @@
+$font: 'Oxygen', helvetica, sans-serif;
+
+
+h3 {
+	font-family: $font;
+	font-size: 120%;
+	color: #213638;
+	margin-bottom: 5px;
+
+	.user-info {
+		color: #D3CBBD;
+		margin-left: 10px;
+	}
+}
+
+
+p {
+	margin-top: 20px;
+	
+ 	a {
+		color: #EB5937;
+		text-decoration: none;
+		font-size: 120%;
+		background-color: #213638;
+		padding: 5px 10px 5px 10px;
+		border-radius: 30px;
+	}
+
+	a:hover {color: #D3CBBD}
+}

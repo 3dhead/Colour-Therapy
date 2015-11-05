@@ -1,6 +1,6 @@
 <h1>Account</h1>
 
 
-<h3>Name: <%= @user.name %></h3>
-<h3>Email: <%= @user.email %></h3>
+<h3>Name: <span class="user-info"><%= @user.name %></span></h3>
+<h3>Email: <span class="user-info"><%= @user.email %></span></h3>
 <p><%= link_to "Log Out", logout_path %></p>

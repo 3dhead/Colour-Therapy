@@ -17,15 +17,23 @@
 
 $(document).ready(function(){
 	
+	$('#image').load(function(){
+		// unused for now
+	});
+
+
 	var currentColor;
 
 	$('#colorpicker').farbtastic(function(color){
 		currentColor = color;
+
+		$('#picked').text(color);
+    	$('#result').css({
+        	'background-color': color
+    	});
+
 	});
 
-	$('#image').load(function(){
-		// unused for now
-	});
 	// 'https://openclipart.org/download/231386/Artist.svg', 
 	//https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/cheshire.svg
 
@@ -34,7 +42,6 @@ $(document).ready(function(){
 		var data = $('#image').html()
 		$('#svg-data').val(data)
 	});
-
 
 	// $('#save').click(function(){
 

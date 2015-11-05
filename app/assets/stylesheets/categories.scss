@@ -14,8 +14,9 @@ $font: 'Oxygen', helvetica, sans-serif;
  .category-placeholder {
  	height: 180px;
  	width: 250px;
- 	border: 1px solid #213638;
  	border-radius: 15px;
+
+ 	img {border-radius: 15px;}
 
  }
 
@@ -26,6 +27,7 @@ $font: 'Oxygen', helvetica, sans-serif;
 
  th {
  	font-family: $font;
+ 	padding: 5px;
 
  	a {
  		text-decoration: none;
