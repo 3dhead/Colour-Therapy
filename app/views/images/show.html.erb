@@ -10,7 +10,11 @@
 
 <div id="colorpicker"></div>
 
-<div class="back-button">
-<%= link_to 'Edit', edit_image_path(@image) %> |
-<%= link_to 'Back', @category_path %>
+<div class="back"> 
+	<%= link_to 'Back', categories_path %> 
+	<div id="save"> <%= link_to 'Save', account_path %> </div>
 </div> 
+
+<%= link_to 'Edit', edit_image_path(@image) %>
+<textarea id="svg-data"></textarea>
+

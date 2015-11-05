@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
  
 
+$font: 'Oxygen', helvetica, sans-serif;
 
  td svg {
  	max-height: 100%;
@@ -24,12 +25,30 @@
  }
 
  th {
- 	font-family: 'Oxygen', helvetica, sans-serif;
+ 	font-family: $font;
 
  	a {
  		text-decoration: none;
  		font-size: 120%;
  		color: #213638;
  	}
+ }
+
+ .back {
+ 	position: fixed;
+ 	bottom: 0;
+ 	margin-bottom: 20px;
+ 	font-family: $font;
+ 	font-size: 120%;
+
+ 	a {
+ 		color: #213638;
+ 		text-decoration: none;
+ 	}
+
+ 	a:hover {
+ 		color: #D3CBBD
+ 	}
+ 	
  }
 
