@@ -16,6 +16,11 @@
 	}
 }
 
+#user_name, #user_email, #user_password, #user_password_confirmation {
+	background-color: #508187;
+	text-align: center;
+}
+
 #name, #email, #password, #password_confirmation,{
 	border: solid #213638 3px;
 	width: 100%;
@@ -53,9 +58,5 @@ input[type="submit"]:hover {
 	color: #EB5937;
 }
 
-#user_name, #user_email, #user_password, #user_password_confirmation {
-	background-color: #508187;
-	text-align: center;
-}
 
 
