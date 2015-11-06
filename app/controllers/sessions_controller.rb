@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
 			# remember which user they are logged in as,
 			# by storing in the session (cookies) 
 			session[:user_id] = user.id
-			redirect_to '/'
+			redirect_to categories_path
 		else
 			redirect_to login_path
 		end
